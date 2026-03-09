@@ -101,6 +101,10 @@ class ReceiptController extends Controller
             'user_id' => auth()->id(),
         ]);
 
+        if ($customer && $customer->email) {
+            dispatch(new \App\Jobs\SendReceiptEmail($receipt));
+        }
+
         // 5. Receipt items save karein
         foreach ($itemsData as $item) {
             // Relation ke through save karein
