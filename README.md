@@ -36,6 +36,7 @@ php artisan key:generate
 
 📸 Interface Preview
 
+<img width="1910" height="915" alt="image" src="https://github.com/user-attachments/assets/3d58ae9e-8274-4e95-93e3-be36b4d7df39" />
 
 <img width="1896" height="917" alt="image" src="https://github.com/user-attachments/assets/5d7fd55e-72ec-4708-8ed4-82a9a4731b6c" />
 
